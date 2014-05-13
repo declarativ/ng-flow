@@ -1,11 +1,15 @@
 {
-    "name": "flow-demo",
-    "version": "0.2.0",
+    "name": "ng-flow",
+    "version": "0.3.0",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:declarativ/ng-flow.git"
+    },
     "dependencies": {
-        "montage": "~0.13.6",
-        "digit": "~0.3.1",
-        "ng-rss": "*"
+        "montage": "git+ssh://git@github.com:montagejs/montage.git#60753749bbf392557e9fc4f39b3ac969d01a7e96",
+        "digit": "0.5.1",
+        "ng-rss": "git+ssh://git@github.com:declarativ/ng-rss.git"
     },
     "exclude": [
         "run-tests.html",
